@@ -126,3 +126,8 @@
 [02-Aug-2023 08:13:43] NOTICE: exiting, bye-bye!
 [02-Aug-2023 08:13:45] NOTICE: fpm is running, pid 5173
 [02-Aug-2023 08:13:45] NOTICE: ready to handle connections
+[02-Aug-2023 11:26:53] NOTICE: Terminating ...
+[02-Aug-2023 11:26:53] NOTICE: Terminating ...
+[02-Aug-2023 11:26:53] NOTICE: exiting, bye-bye!
+[02-Aug-2023 11:27:30] NOTICE: fpm is running, pid 17051
+[02-Aug-2023 11:27:30] NOTICE: ready to handle connections

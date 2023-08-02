@@ -26,11 +26,11 @@ function my_plugin_register_settings() {
     );
 
     add_settings_field(
-        'smtp_user',
-        'SMTP User',
-        'smtp_user_callback',
-        'my_plugin_settings',
-        'my_plugin_section'
+        'smtp_user',  // ID
+        'SMTP User', //Display
+        'smtp_user_callback',  // Callback function
+        'my_plugin_settings', // field added to parent
+        'my_plugin_section' // slug
     );
 
     add_settings_field(
