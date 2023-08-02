@@ -1,0 +1,690 @@
+[26-Jul-2023 10:20:00 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "location_meta_plugin_activate" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/includes/plugin.php(691): do_action('activate_countr...', false)
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/plugins.php(58): activate_plugin('country-locatio...', 'http://localhos...', false)
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[26-Jul-2023 10:20:04 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "location_meta_plugin_activate" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/plugins.php(194): do_action('activate_countr...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[26-Jul-2023 10:20:05 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "location_meta_plugin_activate" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/plugins.php(194): do_action('activate_countr...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[26-Jul-2023 10:20:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "location_meta_plugin_activate" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/includes/plugin.php(691): do_action('activate_countr...', false)
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/plugins.php(58): activate_plugin('country-locatio...', 'http://localhos...', false)
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[26-Jul-2023 10:20:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "location_meta_plugin_activate" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/plugins.php(194): do_action('activate_countr...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[26-Jul-2023 10:20:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "location_meta_plugin_activate" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/plugins.php(194): do_action('activate_countr...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[26-Jul-2023 10:23:52 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/save_location_meta.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/index.php on line 16
+[26-Jul-2023 10:23:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/save_location_meta.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/index.php:16
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(102): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(22): require_once('/home/sumeetdub...')
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/index.php on line 16
+[26-Jul-2023 10:25:48 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/save_location_meta.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/index.php on line 16
+[26-Jul-2023 10:25:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/save_location_meta.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/index.php:16
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(102): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(22): require_once('/home/sumeetdub...')
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/index.php on line 16
+[26-Jul-2023 10:25:53 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/save_location_meta.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/index.php on line 16
+[26-Jul-2023 10:25:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/save_location_meta.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/index.php:16
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(102): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(22): require_once('/home/sumeetdub...')
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/index.php on line 16
+[26-Jul-2023 11:24:50 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/includes/translation-install.php on line 68
+[27-Jul-2023 03:25:59 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/update.php on line 447
+[27-Jul-2023 03:26:00 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/update.php on line 728
+[27-Jul-2023 09:25:24 UTC] PHP Fatal error:  Cannot redeclare display_country_shortcode() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/displayArchivePage.php:2) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/functions.php on line 659
+[27-Jul-2023 09:25:28 UTC] PHP Fatal error:  Cannot redeclare display_country_shortcode() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/displayArchivePage.php:2) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/functions.php on line 659
+[27-Jul-2023 09:25:32 UTC] PHP Fatal error:  Cannot redeclare display_country_shortcode() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/displayArchivePage.php:2) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/functions.php on line 659
+[27-Jul-2023 09:25:47 UTC] PHP Fatal error:  Cannot redeclare display_country_shortcode() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/displayArchivePage.php:2) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/functions.php on line 659
+[27-Jul-2023 09:26:29 UTC] PHP Fatal error:  Cannot redeclare display_country_shortcode() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/displayArchivePage.php:2) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/functions.php on line 659
+[27-Jul-2023 23:51:11 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[28-Jul-2023 02:56:20 UTC] PHP Warning:  Undefined variable $description in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/archive-custom_post_type.php on line 13
+[28-Jul-2023 03:48:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_plugin_active() in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php:24
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(785): require()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(718): load_template('/home/sumeetdub...', false, Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/index.php(32): get_template_part('template-parts/...', 'excerpt')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include('/home/sumeetdub...')
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#7 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php on line 24
+[28-Jul-2023 03:49:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_plugin_active() in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php:24
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(785): require()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(718): load_template('/home/sumeetdub...', false, Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/index.php(32): get_template_part('template-parts/...', 'excerpt')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include('/home/sumeetdub...')
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#7 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php on line 24
+[28-Jul-2023 03:49:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_plugin_active() in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php:24
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(785): require()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(718): load_template('/home/sumeetdub...', false, Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/index.php(32): get_template_part('template-parts/...', 'excerpt')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include('/home/sumeetdub...')
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#7 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php on line 24
+[28-Jul-2023 03:50:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_plugin_active() in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php:24
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(785): require()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(718): load_template('/home/sumeetdub...', false, Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/index.php(32): get_template_part('template-parts/...', 'excerpt')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include('/home/sumeetdub...')
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#7 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php on line 24
+[28-Jul-2023 03:51:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_plugin_active() in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php:24
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(785): require()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(718): load_template('/home/sumeetdub...', false, Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/index.php(32): get_template_part('template-parts/...', 'excerpt')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include('/home/sumeetdub...')
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#7 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php on line 24
+[28-Jul-2023 03:52:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_plugin_active() in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php:24
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(785): require()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(718): load_template('/home/sumeetdub...', false, Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/index.php(32): get_template_part('template-parts/...', 'excerpt')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include('/home/sumeetdub...')
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#7 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php on line 24
+[28-Jul-2023 03:52:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_plugin_active() in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php:24
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(785): require()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(718): load_template('/home/sumeetdub...', false, Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/index.php(32): get_template_part('template-parts/...', 'excerpt')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include('/home/sumeetdub...')
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#7 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php on line 24
+[28-Jul-2023 03:52:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_plugin_active() in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php:24
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(785): require()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(718): load_template('/home/sumeetdub...', false, Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/index.php(32): get_template_part('template-parts/...', 'excerpt')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include('/home/sumeetdub...')
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#7 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php on line 24
+[28-Jul-2023 03:53:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_plugin_active() in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php:24
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(785): require()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(718): load_template('/home/sumeetdub...', false, Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/index.php(32): get_template_part('template-parts/...', 'excerpt')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include('/home/sumeetdub...')
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#7 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php on line 24
+[28-Jul-2023 05:32:10 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/displayArchivePage.php:21
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/shortcodes.php(355): custom_post_list_shortcode('', '', 'custom_post_lis...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(custom...', 'do_shortcode_ta...', '\n<div class="wp...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(308): do_shortcode('\n<div class="wp...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<div class="wp...', Array)
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1860): apply_filters('the_content', '<!-- wp:group {...')
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(952): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#7 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/rest-api/class-wp-rest-server.php(1181): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#9 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/pages/10...')
+#11 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#12 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#13 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#15 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp.php(780): WP->parse_request('')
+#16 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/functions.php(1334): WP->main('')
+#17 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(16): wp()
+#18 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#19 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/displayArchivePage.php on line 21
+[28-Jul-2023 05:32:12 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/displayArchivePage.php:21
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/shortcodes.php(355): custom_post_list_shortcode('', '', 'custom_post_lis...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(custom...', 'do_shortcode_ta...', '\n<div class="wp...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(308): do_shortcode('\n<div class="wp...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<div class="wp...', Array)
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1860): apply_filters('the_content', '<!-- wp:group {...')
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#7 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/rest-api/class-wp-rest-server.php(1181): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#8 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#9 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/rest-api.php(2889): rest_do_request(Object(WP_REST_Request))
+#11 [internal function]: rest_preload_api_request(Array, '/wp/v2/pages/10...')
+#12 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/block-editor.php(634): array_reduce(Array, 'rest_preload_ap...', Array)
+#13 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#14 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/post.php(187): require('/home/sumeetdub...')
+#15 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/displayArchivePage.php on line 21
+[28-Jul-2023 05:35:59 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/displayArchivePage.php:21
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/shortcodes.php(355): custom_post_list_shortcode('', '', 'custom_post_lis...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(custom...', 'do_shortcode_ta...', '[custom_post_li...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php(24): do_shortcode('[custom_post_li...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(785): require('/home/sumeetdub...')
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(718): load_template('/home/sumeetdub...', false, Array)
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/index.php(32): get_template_part('template-parts/...', 'excerpt')
+#8 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include('/home/sumeetdub...')
+#9 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#10 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#11 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country-location/includes/displayArchivePage.php on line 21
+[29-Jul-2023 08:45:45 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[29-Jul-2023 09:44:24 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[30-Jul-2023 15:15:40 UTC] PHP Warning:  Attempt to read property "title" on null in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[31-Jul-2023 03:31:21 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[31-Jul-2023 05:19:59 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/includes/plugin-install.php on line 183
+[31-Jul-2023 05:21:05 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/includes/plugin-install.php on line 183
+[31-Jul-2023 07:20:39 UTC] PHP Warning:  Undefined variable $content in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/template-parts/content/content-excerpt.php on line 27
+[31-Jul-2023 07:20:39 UTC] PHP Warning:  Undefined variable $content in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/template-parts/content/content-excerpt.php on line 27
+[31-Jul-2023 07:20:39 UTC] PHP Warning:  Undefined variable $content in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/template-parts/content/content-excerpt.php on line 27
+[31-Jul-2023 07:20:39 UTC] PHP Warning:  Undefined variable $content in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/template-parts/content/content-excerpt.php on line 27
+[31-Jul-2023 07:20:39 UTC] PHP Warning:  Undefined variable $content in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/template-parts/content/content-excerpt.php on line 27
+[31-Jul-2023 07:20:39 UTC] PHP Warning:  Undefined variable $content in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/template-parts/content/content-excerpt.php on line 27
+[31-Jul-2023 07:20:39 UTC] PHP Warning:  Undefined variable $content in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/template-parts/content/content-excerpt.php on line 27
+[31-Jul-2023 07:20:39 UTC] PHP Warning:  Undefined variable $content in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/template-parts/content/content-excerpt.php on line 27
+[31-Jul-2023 08:01:18 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:01:19 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:02:13 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:02:13 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:02:40 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:02:40 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:02:42 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:02:42 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:02:43 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:02:44 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:03:02 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:03:08 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:03:08 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:03:18 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:03:42 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:03:42 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:03:43 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:03:43 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:03:51 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:03:51 UTC] PHP Fatal error:  Cannot redeclare country_location_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/country_location/includes/sideBarMenu.php:17) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php on line 16
+[31-Jul-2023 08:06:19 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 10
+[31-Jul-2023 08:06:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:10
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(113): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(13): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 10
+[31-Jul-2023 08:06:19 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 10
+[31-Jul-2023 08:06:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:10
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(113): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(13): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 10
+[31-Jul-2023 08:07:31 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 10
+[31-Jul-2023 08:07:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:10
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(113): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(13): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 10
+[31-Jul-2023 08:07:31 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 10
+[31-Jul-2023 08:07:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/sideBarMenu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:10
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(113): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(13): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 10
+[31-Jul-2023 10:28:28 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/test.php on line 23
+[31-Jul-2023 11:15:08 UTC] PHP Warning:  Undefined array key 1 in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-query.php on line 3609
+[31-Jul-2023 11:43:34 UTC] PHP Warning:  Undefined array key 1 in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-query.php on line 3609
+[31-Jul-2023 11:43:34 UTC] PHP Warning:  Undefined array key 2 in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-query.php on line 3609
+[31-Jul-2023 11:43:34 UTC] PHP Warning:  Undefined array key 3 in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-query.php on line 3609
+[31-Jul-2023 11:43:34 UTC] PHP Warning:  Undefined array key 4 in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-query.php on line 3609
+[31-Jul-2023 11:43:34 UTC] PHP Warning:  Undefined array key 5 in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-query.php on line 3609
+[31-Jul-2023 11:47:28 UTC] PHP Warning:  Undefined array key 1 in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-query.php on line 3609
+[31-Jul-2023 11:47:28 UTC] PHP Warning:  Undefined array key 2 in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-query.php on line 3609
+[31-Jul-2023 11:47:28 UTC] PHP Warning:  Undefined array key 3 in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-query.php on line 3609
+[31-Jul-2023 11:47:28 UTC] PHP Warning:  Undefined array key 4 in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-query.php on line 3609
+[31-Jul-2023 11:47:28 UTC] PHP Warning:  Undefined array key 5 in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-query.php on line 3609
+[31-Jul-2023 11:47:28 UTC] PHP Warning:  Undefined array key 6 in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-query.php on line 3609
+[31-Jul-2023 11:47:28 UTC] PHP Warning:  Undefined array key 7 in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-query.php on line 3609
+[31-Jul-2023 11:47:28 UTC] PHP Warning:  Undefined array key 8 in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-query.php on line 3609
+[31-Jul-2023 16:54:25 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[01-Aug-2023 02:39:36 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[01-Aug-2023 02:39:36 UTC] Cron unschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[01-Aug-2023 02:39:38 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/update.php on line 447
+[01-Aug-2023 02:39:39 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/update.php on line 728
+[01-Aug-2023 02:46:10 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[01-Aug-2023 04:06:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_pagenavi_() in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/archive-post.php:65
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/archive-post.php on line 65
+[01-Aug-2023 12:01:08 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_subscription_ajax_handler" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(188): do_action('wp_ajax_my_subs...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 12:01:37 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajax_handler" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(188): do_action('wp_ajax_my_subs...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 12:01:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajax_handler" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(188): do_action('wp_ajax_my_subs...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 13:12:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "form_shortcode()" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(3065): do_action('wp_footer')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/footer.php(87): wp_footer()
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(783): require_once('/home/sumeetdub...')
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(718): load_template('/home/sumeetdub...', true, Array)
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#7 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/index.php(45): get_footer()
+#8 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include('/home/sumeetdub...')
+#9 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#10 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#11 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 13:13:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "form_shortcode" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(3065): do_action('wp_footer')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/footer.php(87): wp_footer()
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(783): require_once('/home/sumeetdub...')
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(718): load_template('/home/sumeetdub...', true, Array)
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#7 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/index.php(45): get_footer()
+#8 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include('/home/sumeetdub...')
+#9 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#10 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#11 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 13:13:15 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "form_shortcode" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(3065): do_action('wp_footer')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/footer.php(87): wp_footer()
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(783): require_once('/home/sumeetdub...')
+#5 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template.php(718): load_template('/home/sumeetdub...', true, Array)
+#6 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#7 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone/index.php(45): get_footer()
+#8 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include('/home/sumeetdub...')
+#9 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#10 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#11 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 13:50:15 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/smtp-email-setting.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[01-Aug-2023 13:50:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/smtp-email-setting.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:12
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(113): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(22): require_once('/home/sumeetdub...')
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[01-Aug-2023 13:50:17 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/smtp-email-setting.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[01-Aug-2023 13:50:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/smtp-email-setting.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:12
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(113): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(13): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[01-Aug-2023 13:50:18 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/smtp-email-setting.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[01-Aug-2023 13:50:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/smtp-email-setting.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:12
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(113): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(13): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[01-Aug-2023 14:56:25 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[01-Aug-2023 15:12:33 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_plugin_register_email_templates" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 15:13:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_plugin_register_email_templates" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 15:14:33 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_plugin_register_email_templates" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 16:02:06 UTC] PHP Warning:  Undefined array key "template_title" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/email-templates-settings.php on line 29
+[01-Aug-2023 16:02:06 UTC] PHP Warning:  Undefined array key "template_subject" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/email-templates-settings.php on line 30
+[01-Aug-2023 16:02:06 UTC] PHP Warning:  Undefined array key "template_header" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/email-templates-settings.php on line 31
+[01-Aug-2023 16:02:06 UTC] PHP Warning:  Undefined array key "template_message" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/email-templates-settings.php on line 32
+[01-Aug-2023 16:05:27 UTC] PHP Warning:  Undefined array key "template_title" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/email-templates-settings.php on line 29
+[01-Aug-2023 16:05:27 UTC] PHP Warning:  Undefined array key "template_subject" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/email-templates-settings.php on line 30
+[01-Aug-2023 16:05:27 UTC] PHP Warning:  Undefined array key "template_header" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/email-templates-settings.php on line 31
+[01-Aug-2023 16:05:27 UTC] PHP Warning:  Undefined array key "template_message" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/email-templates-settings.php on line 32
+[01-Aug-2023 16:07:42 UTC] PHP Warning:  Undefined array key "template_title" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/email-templates-settings.php on line 29
+[01-Aug-2023 16:07:42 UTC] PHP Warning:  Undefined array key "template_subject" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/email-templates-settings.php on line 30
+[01-Aug-2023 16:07:42 UTC] PHP Warning:  Undefined array key "template_header" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/email-templates-settings.php on line 31
+[01-Aug-2023 16:07:42 UTC] PHP Warning:  Undefined array key "template_message" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/email-templates-settings.php on line 32
+[01-Aug-2023 16:44:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/includes/misc.php:1402) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/pluggable.php on line 1427
+[01-Aug-2023 16:44:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/includes/misc.php:1402) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/pluggable.php on line 1430
+[01-Aug-2023 17:24:48 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 59
+[01-Aug-2023 17:33:59 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:33:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:14
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(22): require_once('/home/sumeetdub...')
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:34:01 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:34:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:14
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(34): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/plugins.php(10): require_once('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:34:01 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:34:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:14
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(13): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:34:05 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:34:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:14
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(22): require_once('/home/sumeetdub...')
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:34:45 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:34:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:14
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(34): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/tools.php(40): require_once('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:38:39 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:38:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:14
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(22): require_once('/home/sumeetdub...')
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:38:41 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:38:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:14
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(34): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/options-general.php(10): require_once('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:38:41 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:38:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-review-settings.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:14
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(13): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 14
+[01-Aug-2023 17:56:15 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_plugin_main_page" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 17:56:46 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "dashicons-email" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 17:56:49 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "dashicons-email" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 17:56:54 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "dashicons-email" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 17:57:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "dashicons-email" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 17:59:21 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "dashicons-email" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 17:59:33 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "dashicons-email" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 18:00:48 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "dashicons-email" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 18:07:08 UTC] PHP Fatal error:  Cannot redeclare my_plugin_settings_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-settings.php:5) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/add_admin_menu.php on line 49
+[01-Aug-2023 18:07:08 UTC] PHP Fatal error:  Cannot redeclare my_plugin_settings_page() (previously declared in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/plugin-settings.php:5) in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/add_admin_menu.php on line 49
+[01-Aug-2023 18:07:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "dashicons-email" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 18:07:25 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "dashicons-email" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Aug-2023 18:09:52 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 59
+[01-Aug-2023 18:17:29 UTC] PHP Warning:  Undefined array key "Email Subscription templat" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 59
+[01-Aug-2023 18:18:33 UTC] PHP Warning:  Undefined array key "greetin" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 59
+[01-Aug-2023 18:19:10 UTC] PHP Warning:  Undefined array key "greeting" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 59
+[01-Aug-2023 18:22:45 UTC] PHP Warning:  Undefined array key "greeting" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 59
+[01-Aug-2023 18:22:45 UTC] PHP Warning:  Array to string conversion in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 62
+[01-Aug-2023 18:23:15 UTC] PHP Warning:  Undefined array key "greeting" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 59
+[01-Aug-2023 18:40:04 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/mySubAjaxHandler.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[01-Aug-2023 18:40:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/mySubAjaxHandler.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:12
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(22): require_once('/home/sumeetdub...')
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[01-Aug-2023 18:40:06 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/mySubAjaxHandler.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[01-Aug-2023 18:40:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/mySubAjaxHandler.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:12
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(22): require_once('/home/sumeetdub...')
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[01-Aug-2023 18:40:07 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/mySubAjaxHandler.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[01-Aug-2023 18:40:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/mySubAjaxHandler.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:12
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(13): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[01-Aug-2023 18:40:08 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/mySubAjaxHandler.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[01-Aug-2023 18:40:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/mySubAjaxHandler.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:12
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(13): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[01-Aug-2023 18:41:01 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 40
+[01-Aug-2023 18:54:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_plugin_active() in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/archive-post.php:42
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/archive-post.php on line 42
+[01-Aug-2023 18:58:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_plugin_active() in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/archive-post.php:42
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/archive-post.php on line 42
+[01-Aug-2023 18:58:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_plugin_active() in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/archive-post.php:42
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(19): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/themes/twentytwentyone-child/archive-post.php on line 42
+[01-Aug-2023 19:07:09 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 40
+[02-Aug-2023 02:44:02 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[02-Aug-2023 02:50:10 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 40
