@@ -9,7 +9,7 @@ Description: A simple plugin to handle email subscriptions.
 
 
 require_once plugin_dir_path(__FILE__) . './includes/mySubAjaxHandler.php';
-require_once(plugin_dir_path(__FILE__) . './includes/my_Plugin_Admin_Menu.php');
+require_once(plugin_dir_path(__FILE__) . './includes/email_subscription_admin_menu.php');
 require_once plugin_dir_path(__FILE__) . 'smtp-email-setting.php';
 require_once plugin_dir_path(__FILE__) . 'plugin-settings.php';
 require_once plugin_dir_path(__FILE__) . 'email-templates-settings.php';
@@ -17,16 +17,20 @@ require_once plugin_dir_path(__FILE__) . 'email-templates-settings.php';
 
 
 
-add_action('admin_init', 'my_plugin_register_settings');
-add_action('admin_init', 'my_plugin_register_email_templates');
+add_action('admin_init', 'email_subscription_Plugin_register_settings');
+add_action('admin_init', 'email_subscription_Plugin_register_email_templates');
 
+
+
+// Hook the function to the appropriate action
 
 
 
 // Send email via SMTP
-add_action( 'phpmailer_init', 'my_phpmailer_fun' );
-function my_phpmailer_fun( $phpmailer ) {
-    $phpmailer->isSMTP();     
+add_action('phpmailer_init', 'my_phpmailer_fun');
+function my_phpmailer_fun($phpmailer)
+{
+    $phpmailer->isSMTP();
     $phpmailer->Host = SMTP_HOST;
     $phpmailer->SMTPAuth = SMTP_AUTH;
     $phpmailer->Port = SMTP_PORT;

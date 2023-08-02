@@ -808,3 +808,113 @@ Stack trace:
 [02-Aug-2023 09:10:15 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 40
 [02-Aug-2023 09:15:54 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 46
 [02-Aug-2023 09:17:44 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 46
+[02-Aug-2023 09:39:55 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 46
+[02-Aug-2023 09:44:51 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/./includes/email_subscription_Admin_Menu.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[02-Aug-2023 09:44:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/./includes/email_subscription_Admin_Menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:12
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(22): require_once('/home/sumeetdub...')
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[02-Aug-2023 09:45:17 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/./includes/email_subscription_Admin_Menu.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[02-Aug-2023 09:45:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/./includes/email_subscription_Admin_Menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:12
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(22): require_once('/home/sumeetdub...')
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[02-Aug-2023 09:45:55 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/./includes/email_subscription_Admin_Menu.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[02-Aug-2023 09:45:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/./includes/email_subscription_Admin_Menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:12
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(22): require_once('/home/sumeetdub...')
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[02-Aug-2023 09:45:56 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/./includes/email_subscription_Admin_Menu.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[02-Aug-2023 09:45:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/./includes/email_subscription_Admin_Menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:12
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(34): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/plugins.php(10): require_once('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[02-Aug-2023 09:45:57 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/./includes/email_subscription_Admin_Menu.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[02-Aug-2023 09:45:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/./includes/email_subscription_Admin_Menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:12
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-blog-header.php(13): require_once('/home/sumeetdub...')
+#4 /home/sumeetdubey/Local Sites/wptask3/app/public/index.php(17): require('/home/sumeetdub...')
+#5 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[02-Aug-2023 09:46:17 UTC] PHP Warning:  require_once(/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/./includes/email_subscription_Admin_Menu.php): Failed to open stream: No such file or directory in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[02-Aug-2023 09:46:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/./includes/email_subscription_Admin_Menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php:12
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-settings.php(453): include_once()
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-config.php(105): require_once('/home/sumeetdub...')
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-load.php(50): require_once('/home/sumeetdub...')
+#3 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(22): require_once('/home/sumeetdub...')
+#4 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/my_subscription_plugin.php on line 12
+[02-Aug-2023 09:47:01 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_plugin_settings_page" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(259): do_action('my-plugin_page_...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[02-Aug-2023 09:47:07 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_plugin_email_templates_page" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(259): do_action('my-plugin_page_...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[02-Aug-2023 09:47:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_plugin_settings_page" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(259): do_action('my-plugin_page_...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[02-Aug-2023 09:48:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "email_subscription_register_settings" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[02-Aug-2023 09:49:35 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 46
+[02-Aug-2023 10:34:19 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 46
+[02-Aug-2023 10:36:33 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 46
+[02-Aug-2023 10:40:45 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 46
+[02-Aug-2023 10:49:30 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_plugin_settings_page" not found or invalid function name in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/sumeetdubey/Local Sites/wptask3/app/public/wp-admin/admin.php(259): do_action('my-plugin_page_...')
+#3 {main}
+  thrown in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-includes/class-wp-hook.php on line 308
+[02-Aug-2023 11:02:38 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 46
+[02-Aug-2023 11:05:04 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 46
+[02-Aug-2023 11:25:49 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 46
+[02-Aug-2023 11:32:34 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 46
+[02-Aug-2023 11:41:23 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 46
+[02-Aug-2023 11:50:30 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 46
+[02-Aug-2023 11:51:18 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 45
+[02-Aug-2023 11:52:57 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 41
+[02-Aug-2023 11:54:13 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 46
+[02-Aug-2023 12:14:14 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 50
+[02-Aug-2023 12:25:47 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 47
+[02-Aug-2023 12:31:31 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 44
+[02-Aug-2023 12:32:02 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 44
+[02-Aug-2023 12:32:14 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 44
