@@ -9,10 +9,12 @@ Description: A simple plugin to handle email subscriptions.
 
 
 require_once plugin_dir_path(__FILE__) . './includes/mySubAjaxHandler.php';
+require_once(plugin_dir_path(__FILE__) . './includes/my_Plugin_Admin_Menu.php');
 require_once plugin_dir_path(__FILE__) . 'smtp-email-setting.php';
 require_once plugin_dir_path(__FILE__) . 'plugin-settings.php';
 require_once plugin_dir_path(__FILE__) . 'email-templates-settings.php';
-require_once plugin_dir_path(__FILE__) . 'add_admin_menu.php';
+
+
 
 
 add_action('admin_init', 'my_plugin_register_settings');

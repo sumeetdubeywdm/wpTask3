@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
         var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
             
-            $('#subscription-message').text('Invalid email address.');
+            alert('Invalid email address.');
             $('#my-subscription-form input[name="email"]').val(''); // Clear the email input
             return;
         }
@@ -20,20 +20,29 @@ jQuery(document).ready(function($) {
                 action: 'my_subscription_ajax',
                 email: email
             },
+            beforeSend: function () {
+                // Disable the button before sending the AJAX request
+                $('#my-subscription-form button[type="submit"]').prop('disabled', true).addClass('disabled');
+            },
             success: function(response) {
                 if (response.success) {
-                    
-                    $('#subscription-message').text('You have been subscribed successfully.');
+                    alert('You have been subscribed successfully.');
                     $('#my-subscription-form input[name="email"]').val(''); // Clear the email input field
                 } else {
+                    alert('An error occurred while sending the email.');
+                    $('#my-subscription-form input[name="email"]').val('');
                    
-                    $('#subscription-message').text('An error occurred while sending the email.');
                 }
             },
             error: function() {
                
-                $('#subscription-message').text('An error occurred while sending the email.');
-            }
+                alert('An error occurred while sending the email.');
+                $('#my-subscription-form input[name="email"]').val('');
+            },
+            complete: function () {
+                // Re-enable the button after the AJAX request is complete (success or error)
+                $('#my-subscription-form button[type="submit"]').prop('disabled', false).removeClass('disabled');
+            },
         });
     });
 });

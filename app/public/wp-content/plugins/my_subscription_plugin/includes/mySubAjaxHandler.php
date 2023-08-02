@@ -21,9 +21,15 @@ class mySubAjaxHandler{
     public function form_shortcode() {
         ob_start();
         ?>
+        <style>
+            .disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+        </style>
         <form id="my-subscription-form">
             <input type="email" name="email" required placeholder="Enter your email">
-            <button type="submit">Subscribe Me</button>
+            <button type="submit" id="subscribe-button">Subscribe Me</button>
         </form>
         <div id="subscription-message"></div>
         <?php
@@ -59,6 +65,7 @@ class mySubAjaxHandler{
             $full_message = $header . "\n\n" . $message;
     
             $result = wp_mail($email, $subject, $full_message, $headers);
+
     
             if ($result) {
                 wp_send_json_success('success');
