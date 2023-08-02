@@ -918,3 +918,4 @@ Stack trace:
 [02-Aug-2023 12:31:31 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 44
 [02-Aug-2023 12:32:02 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 44
 [02-Aug-2023 12:32:14 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/my_subscription_plugin/includes/mySubAjaxHandler.php on line 44
+[02-Aug-2023 12:45:27 UTC] PHP Warning:  Undefined array key "Email Subscription template" in /home/sumeetdubey/Local Sites/wptask3/app/public/wp-content/plugins/email_subscription_plugin/includes/mySubAjaxHandler.php on line 44
