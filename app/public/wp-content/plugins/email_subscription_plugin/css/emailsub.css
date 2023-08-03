@@ -1,0 +1,26 @@
+.disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
+}
+
+
+.email-sub-plugin-spinner {
+    display: inline-block;
+    width: 1.5rem; 
+    vertical-align: text-bottom;
+    height: 1.5rem;
+    border: 0.25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: spinner-border 0.75s linear infinite;
+  }
+
+  .email-sub-text{
+    padding-left: 10px;
+  }
+
+  @keyframes spinner-border {
+    to {
+      transform: rotate(360deg);
+    }
+  }
