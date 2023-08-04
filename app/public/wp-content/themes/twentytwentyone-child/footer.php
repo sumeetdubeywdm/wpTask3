@@ -75,8 +75,8 @@
 		<div style="text-align: center;">
 		
 		<?php 
-		if (shortcode_exists("my_subscription_form")){
-			echo do_shortcode("[my_subscription_form]");
+		if (shortcode_exists("email_subscription_code")){
+			echo do_shortcode("[email_subscription_code]");
 		}
 		?>
 		</div>
