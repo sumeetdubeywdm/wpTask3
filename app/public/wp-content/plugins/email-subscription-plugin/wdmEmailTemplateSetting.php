@@ -12,15 +12,14 @@ function email_sub_email_templates_page()
             'message' => sanitize_textarea_field($_POST['template_message']),
         );
 
-        $template_id = isset($_POST['edit_template']) ? intval($_POST['edit_template']) : -1;
-        if ($template_id >= 0) {
-            $templates[$template_id] = $template;
-        }
+        $templates[0] = $template;
 
         update_option('emailsub_plugin_email_templates', $templates);
     } elseif (isset($_POST['edit_template'])) {
         $edit_template_id = intval($_POST['edit_template']);
         $edit_template = $templates[$edit_template_id];
+    } elseif (isset($_POST['cancel_template'])) {
+        unset($edit_template);
     }
 ?>
 
@@ -33,7 +32,6 @@ function email_sub_email_templates_page()
 
     <?php if (isset($edit_template)) : ?>
     <form method="post" action="">
-        <input type="hidden" name="edit_template" value="<?php echo intval($edit_template_id); ?>" />
         <table class="form-table">
             <tr>
                 <th scope="row">Template Title</th>
@@ -57,28 +55,26 @@ function email_sub_email_templates_page()
         </p>
     </form>
 
-    <?php endif; ?>
-
-
+    <?php else : ?>
 
     <?php
-        if (empty($templates)) {
-            echo '<p>No templates available.</p>';
-        } else {
-        ?>
-    <table class="wp-list-table widefat fixed striped">
+            if (empty($templates)) {
+                echo '<p>No templates available.</p>';
+            } else {
+            ?>
+    <table class="wp-list-table widefat fixed striped" >
         <thead>
             <tr>
                 <th>Template Title</th>
                 <th>Subject</th>
                 <th>Message</th>
-                <th></th>
+                <th>Want to Change</th>
             </tr>
         </thead>
         <tbody>
             <?php
-                    foreach ($templates as $template_id => $template) {
-                    ?>
+                        foreach ($templates as $template_id => $template) {
+                        ?>
             <tr>
                 <td><?php echo esc_html($template['title']); ?></td>
                 <td><?php echo esc_html($template['subject']); ?></td>
@@ -90,17 +86,19 @@ function email_sub_email_templates_page()
                         <input type="hidden" name="edit_template" value="<?php echo $template_id; ?>" />
                         <input type="submit" class="button" value="Edit" />
                     </form>
-
                 </td>
             </tr>
             <?php
-                    }
-                    ?>
+                        }
+                        ?>
         </tbody>
     </table>
     <?php
-        }
-        ?>
+            }
+            ?>
+
+    <?php endif; ?>
 </div>
 <?php
 }
+?>
