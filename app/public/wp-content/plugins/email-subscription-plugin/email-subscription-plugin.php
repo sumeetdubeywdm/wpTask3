@@ -8,7 +8,7 @@ Description: A simple plugin to handle email subscriptions.
 */
 
 
-require_once plugin_dir_path(__FILE__) . './includes/wdmEmailSubAjaxHandler.php';
+require_once (plugin_dir_path(__FILE__) . './includes/wdmEmailSubAjaxHandler.php');
 require_once(plugin_dir_path(__FILE__) . './includes/wdmEmailSubAdminMenu.php');
 require_once plugin_dir_path(__FILE__) . 'wdmSmtpEmailSetting.php';
 require_once plugin_dir_path(__FILE__) . 'wdmPluginSetting.php';

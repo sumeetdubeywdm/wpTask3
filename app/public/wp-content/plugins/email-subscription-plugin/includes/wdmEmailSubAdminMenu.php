@@ -40,7 +40,7 @@ class wdmEmailSubAdminMenu
 
     public function email_sub_enqueue_styles()
     {
-        $css_file_url = plugin_dir_url(__FILE__) . '../css/emailsub.css';
+        $css_file_url = plugin_dir_url(__FILE__) . '../public/css/emailsub.css';
         wp_enqueue_style('emailsub', $css_file_url);
     }
 }
